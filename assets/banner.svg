@@ -1,0 +1,57 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a1a12"/>
+      <stop offset="45%" stop-color="#0f2a1a"/>
+      <stop offset="100%" stop-color="#050b08"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#3a7d5c" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#1a3a28" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="spike" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6fae82" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#6fae82" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <g opacity="0.5" fill="none" stroke="#4f9c73" stroke-width="1">
+    <circle cx="150" cy="90" r="60" opacity="0.3"/>
+    <circle cx="1060" cy="280" r="90" opacity="0.25"/>
+    <circle cx="1000" cy="70" r="30" opacity="0.3"/>
+    <circle cx="90" cy="300" r="40" opacity="0.25"/>
+  </g>
+
+  <g opacity="0.35">
+    <path d="M60 340 L100 260 L140 340 Z" fill="url(#spike)"/>
+    <path d="M120 340 L170 240 L220 340 Z" fill="url(#spike)"/>
+    <path d="M1050 340 L1100 250 L1150 340 Z" fill="url(#spike)"/>
+    <path d="M980 340 L1030 270 L1080 340 Z" fill="url(#spike)"/>
+  </g>
+
+  <g opacity="0.4" stroke="#5db083" stroke-width="1.2" fill="none">
+    <path d="M40 40 Q 120 10 200 40"/>
+    <path d="M1000 320 Q 1080 350 1160 320"/>
+  </g>
+
+  <g opacity="0.3" fill="#6fae82">
+    <polygon points="600,40 606,55 622,55 609,64 614,79 600,70 586,79 591,64 578,55 594,55"/>
+  </g>
+
+  <text x="600" y="165" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="64.0" fill="#ffffff" font-weight="bold">
+    <tspan x="600" dy="0">Kaiju Alpha Script</tspan>
+  </text>
+
+  <text x="600" y="230" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Setup kit for Kaiju Alpha Script users — no more manual configuration, just run and go.</tspan>
+  </text>
+
+  <g opacity="0.3" stroke="#4f9c73" stroke-width="1" fill="none">
+    <line x1="80" y1="120" x2="220" y2="120"/>
+    <line x1="980" y1="240" x2="1120" y2="240"/>
+  </g>
+</svg>
